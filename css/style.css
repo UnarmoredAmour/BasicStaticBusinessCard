@@ -238,3 +238,31 @@ p {
 .credits {
   font-size: 13px;
 }
+
+/* Custom styling for Bootstrap icons */
+.bi {
+    font-size: 24px;
+    color: #292929;
+}
+
+.bi:hover {
+    color: #b8a07e;
+}
+
+.list-social {
+    margin: 0;
+    padding: 0;
+}
+
+.list-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-social li a {
+    text-decoration: none;
+}
+
+.list-social li a i {
+    transition: color 0.3s ease-in-out;
+}

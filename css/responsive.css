@@ -1,44 +1,29 @@
-/** Width between 1200px to 992px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (min-width: 992px) {
+/** Width between 1200px to 992px */
+@media (min-width: 992px) and (max-width: 1200px) {
   #header {
-    background-size: cover; /* Adjust background size for larger screens */
+    background-size: cover;
   }
 }
 
-/** Width between 768px to 991px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+/** Width between 991px to 768px */
 @media (min-width: 768px) and (max-width: 991px) {
   #header {
-    background-size: cover; /* Adjust background size for medium screens */
+    background-size: cover;
   }
 }
 
-/** Width between 600px to 767px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (min-width: 600px) and (max-width: 767px) {
+/** Width between 767px to 480px */
+@media (max-width: 767px) {
   #header {
-    background-size: cover; /* Adjust background size for smaller screens */
+    background-size: contain;
+    background-position: center;
   }
 }
 
-/** Width between 480px to 599px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (min-width: 480px) and (max-width: 599px) {
-  #header {
-    background-size: contain; /* Adjust background size for smaller mobile screens */
-  }
-}
-
-/** Width between 320px to 479px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+/** Width between 479px to 320px */
 @media (max-width: 479px) {
   #header {
-    background-size: contain; /* Adjust background size for very small mobile screens */
+    background-size: contain;
+    background-position: center;
   }
 }

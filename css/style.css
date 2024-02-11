@@ -151,8 +151,13 @@ a:hover, a:focus {
     bottom: 0; /* Align the footer to the bottom of the header */
     left: 0; /* Align the footer text to the left */
     width: 100%; /* Make the footer span the entire width of the header */
-    background-color: rgba(0, 0, 0, 0.5); /* Example background color for better visibility */
-    color: white; /* Example text color for better visibility */
+    background-color: rgba(0, 0, 0, 0); /* make it rgba(0, 0, 0, 0.5) for black overlay  */
+    font-size: 12px;       /*Change the font size here*/
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000000;                      /*Change the color here*/
     padding: 10px; /* Add padding for better appearance */
     text-align: center; /* Center the text horizontally */
 }

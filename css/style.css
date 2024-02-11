@@ -53,7 +53,7 @@ a:hover, a:focus {
 }
 
 .header-content p {
-  font-size: 24px;                 /*Change the font size here*/
+  font-size: 18px;                 /*Change the font size here*/
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -79,6 +79,16 @@ a:hover, a:focus {
 
 .contact-details li {
   padding-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 15px;                 /*Change the font size here*/
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #000000;                  /*Change the color here*/
+  font-weight: 500;               /*Change the font weight here*/
 }
 
 #header .contact-details li a:hover {

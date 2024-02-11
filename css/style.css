@@ -117,6 +117,7 @@ a:hover, a:focus {
   transition: color 0.5s ease-in-out; 
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
@@ -139,4 +140,14 @@ a:hover, a:focus {
 
 .credits {
   font-size: 13px;
+}
+
+#header {
+    position: relative; /* Set position relative for the header container */
+}
+
+#footer {
+    position: absolute; /* Set position absolute for the footer */
+    bottom: 0; /* Align the footer to the bottom of the header */
+    width: 100%; /* Make the footer span the entire width of the header */
 }

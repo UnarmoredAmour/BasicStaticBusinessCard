@@ -146,7 +146,7 @@ a:hover, a:focus {
     position: relative; /* Set position relative for the header container */
 }
 
-#footer {
+#footer span {
     position: absolute; /* Set position absolute for the footer */
     bottom: 0; /* Align the footer to the bottom of the header */
     left: 0; /* Align the footer text to the left */

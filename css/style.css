@@ -66,21 +66,6 @@ a:hover, a:focus {
 /*  Contact Details Section 
 /*-----------------------------------------------------------------------------------*/
 
-.contact-details ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contact-details li {
-    padding: 10px 0;
-    font-size: 16px;
-    color: #000000; /*Change the text color here*/
-}
-
-.contact-details li a {
-    color: #0066cc;
-    text-decoration: none;
-}
 
  .contact-details li a:hover {
   color: #094f37;                   /*Change the text hover color here*/

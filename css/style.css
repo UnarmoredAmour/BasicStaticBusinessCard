@@ -55,7 +55,7 @@ p {
 
 #header .header-content {
   height: 100vh;
-  text-align: center;   /* to make it centered or right aligned change to text-align: center; or text-align: right; . Don't forget the social media links as well! */
+  text-align: left;   /* to make it centered or right aligned change to text-align: center; or text-align: right; */
   width: 100%;
   display: flex;
   justify-content: center;

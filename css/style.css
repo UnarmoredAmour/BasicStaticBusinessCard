@@ -121,8 +121,9 @@ a:hover, a:focus {
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 
+
 #footer {
-  background: #fff;  
+  background: rgba(255, 255, 255, 0); /* Transparent background */
   padding-top: 50px;
   padding-bottom: 50px;
 }

@@ -63,21 +63,21 @@ p {
 }
 
 .header-content h1 {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 40px;             /*Change the font size here*/
+  font-weight: 700;             /*Change the font weight here*/
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #000000;                     /*Change the color here*/
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 24px;                 /*Change the font size here*/
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
   color: #000000;                  /*Change the color here*/
-  font-weight: 500;
+  font-weight: 500;               /*Change the font weight here*/
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -97,6 +97,16 @@ p {
 
 .contact-details li {
   padding-bottom: 10px;
+}
+
+.contact-details p {
+  font-size: 18px;                 /*Change the font size here*/
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #000000;                  /*Change the color here*/
+  font-weight: 500;               /*Change the font weight here*/
 }
 
 #header .contact-details li a:hover {

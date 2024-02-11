@@ -99,6 +99,15 @@ p {
   padding-bottom: 10px;
 }
 
+#header .contact-details li a:hover {
+  color: #094f37;                   /*Change the text hover color here*/
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Social Media Links Section 
+/*-----------------------------------------------------------------------------------*/
+
 .header-content .list-social li {
   float: center;             /* to make it centered or right aligned change to float: center; or float: right; . Don't forget the header text above as well! */
   margin-right: 20px;

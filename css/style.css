@@ -122,10 +122,10 @@ a:hover, a:focus {
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 
-
+/*
 #footer {
   background: rgba(255, 255, 255, 0); /* Transparent background */
-  padding-top: 50px;
+ /* padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -136,12 +136,12 @@ a:hover, a:focus {
   margin-top: 0;
   text-transform: uppercase;
   color: #000000;                      /*Change the icon color here*/
-}
+/*}
 
 .credits {
   font-size: 13px;
 }
-
+*/
 #header {
     position: relative; /* Set position relative for the header container */
 }
@@ -149,5 +149,11 @@ a:hover, a:focus {
 #footer {
     position: absolute; /* Set position absolute for the footer */
     bottom: 0; /* Align the footer to the bottom of the header */
+    left: 0; /* Align the footer text to the left */
     width: 100%; /* Make the footer span the entire width of the header */
+    background-color: rgba(0, 0, 0, 0.5); /* Example background color for better visibility */
+    color: white; /* Example text color for better visibility */
+    padding: 10px; /* Add padding for better appearance */
+    text-align: center; /* Center the text horizontally */
 }
+

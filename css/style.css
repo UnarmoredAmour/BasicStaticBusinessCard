@@ -29,7 +29,8 @@ a:hover, a:focus {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  background: url("../images/home-bg.jpg") no-repeat center center; /* Remove background size property */
+  background-size: cover; /* Add background size property here if needed */
   height: 100vh;
   width: 100%;
 }

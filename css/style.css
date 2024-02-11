@@ -66,32 +66,23 @@ a:hover, a:focus {
 /*  Contact Details Section 
 /*-----------------------------------------------------------------------------------*/
 
-#contact {
-  height: auto;
-  width: 100%;
-}
-
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.contact-details ul {
+    list-style: none;
+    padding: 0;
 }
 
 .contact-details li {
-  padding-bottom: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000; /*Change the text color here*/
 }
 
-.contact-details li {
-  font-size: 37px;                 /*Change the font size here*/
-  letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-  color: #000000;                  /*Change the color here*/
-  font-weight: 500;               /*Change the font weight here*/
+.contact-details li a {
+    color: #0066cc;
+    text-decoration: none;
 }
 
-#header .contact-details li a:hover {
+ .contact-details li a:hover {
   color: #094f37;                   /*Change the text hover color here*/
   transition: all 0.5s ease-in-out 0s;
 }

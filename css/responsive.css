@@ -62,25 +62,3 @@
   }
   
 }
-
-/* Additional Styles for Portrait Orientation */
-@media screen and (max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 1/1) {
-  #header {
-    background-image: url("../images/portrait-bg.jpeg");
-    background-size: cover;
-  }
-  
-  /* Change text color for portrait orientation */
-  .header-content h1,
-  .header-content p,
-  .header-content .list-social li i,
-  #footer span {
-    color: #ffffff;  /* Change text color here */
-  }
-  
-  /* Right align content in portrait orientation */
-  .header-content {
-    text-align: right;
-  }
-}
-

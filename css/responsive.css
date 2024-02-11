@@ -1,1 +1,141 @@
+/*-----------------------------------------------------------------------------------*/
+/* General Styles */
+/*-----------------------------------------------------------------------------------*/
+
+body {
+  background: #fff;
+  color: #898989;
+  font-family: 'Poppins', helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #094f37;
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+#header {
+  background: url("../images/home-bg.jpg") no-repeat center center; /* Remove background size property */
+  background-size: cover; /* Add background size property here if needed */
+  height: 100vh;
+  width: 100%;
+}
+
+#header .header-content {
+  height: 100vh;
+  text-align: left;   /* to make it centered or right aligned change to text-align: center; or text-align: right; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-content h1 {
+  font-size: 50px;             /*Change the font size here*/
+  font-weight: 700;             /*Change the font weight here*/
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;                     /*Change the color here*/
+}
+
+.header-content p {
+  font-size: 18px;                 /*Change the font size here*/
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #000000;                  /*Change the color here*/
+  font-weight: 500;               /*Change the font weight here*/
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Social Media Links Section 
+/*-----------------------------------------------------------------------------------*/
+
+.header-content .list-social li {
+  margin-right: 20px;
+  display: inline-block; /* Ensures the list items are displayed horizontally */
+}
+
+.header-content .list-social li i {
+  color: #000000;                      /*Change the icon color here*/
+  font-size: 24px;                    /*Change the icon size here*/
+  letter-spacing: 0.1em;
+  font-weight: 500;                 /*Change the icon weight here*/
+}
+
+.header-content .list-social li:hover i {
+  color: #094f37;                     /*Change the icon hover color here*/
+  transition: color 0.5s ease-in-out; 
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer Styles */
+/*-----------------------------------------------------------------------------------*/
+
+#footer span {
+  position: absolute; /* Set position absolute for the footer */
+  bottom: 0; /* Align the footer to the bottom of the header */
+  left: 0; /* Align the footer text to the left */
+  width: 100%; /* Make the footer span the entire width of the header */
+  background-color: rgba(0, 0, 0, 0); /* make it rgba(0, 0, 0, 0.5) for black overlay  */
+  font-size: 10px; /* Adjust the font size here */
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000000; /* Change the color here */
+  padding: 10px; /* Add padding for better appearance */
+  text-align: center; /* Center the text horizontally */
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Responsive Styles */
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    text-align: center; /* Center align content on smaller screens */
+  }
+
+  .header-content h1 {
+    font-size: 40px; /* Reduce font size for h1 on smaller screens */
+  }
+
+  .header-content p {
+    font-size: 16px; /* Reduce font size for paragraphs on smaller screens */
+    letter-spacing: 3px; /* Adjust letter spacing for paragraphs on smaller screens */
+    margin-bottom: 20px; /* Reduce bottom margin for paragraphs on smaller screens */
+  }
+
+  .header-content .list-social li {
+    margin-right: 10px; /* Reduce margin between social media icons on smaller screens */
+  }
+
+  .header-content .list-social li i {
+    font-size: 20px; /* Reduce font size for social media icons on smaller screens */
+  }
+
+  #footer span {
+    font-size: 8px; /* Reduce font size for footer text on smaller screens */
+    padding: 5px; /* Reduce padding for footer text on smaller screens */
+  }
+}
 

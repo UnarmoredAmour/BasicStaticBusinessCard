@@ -2,14 +2,6 @@
 /* General Styles */
 /*-----------------------------------------------------------------------------------*/
 
-/* Default Text Color */
-.header-content h1,
-.header-content p,
-.header-content .list-social li i,
-#footer span {
-  color: #000000; /* Default text color set to the same as main website */
-}
-
 body {
   background: #fff;
   color: #898989;
@@ -117,6 +109,15 @@ a:hover, a:focus {
 /*-----------------------------------------------------------------------------------*/
 /* Responsive Styles */
 /*-----------------------------------------------------------------------------------*/
+
+/* Default Text Color */
+.header-content h1,
+.header-content p,
+.header-content .list-social li i,
+#footer span {
+  color: #000000; /* Default text color set to the same as main website */
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .header-content {
@@ -159,7 +160,6 @@ a:hover, a:focus {
     background-image: url("../images/portrait-bg.jpeg");
     background-size: cover;
   }
-}
 
   /* Change text color for portrait orientation */
   .header-content h1,
@@ -169,3 +169,4 @@ a:hover, a:focus {
     color: #ffffff;  /* Change text color here */
   }
 }
+

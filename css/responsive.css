@@ -57,13 +57,6 @@
     background-image: url("../images/portrait-bg.jpeg");
     background-size: cover;
   }
-
-/* Additional Styles for Portrait Orientation */
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  .header-content {
-    text-align: right; /* Right align content in portrait orientation */
-  }
-}
   
   /* Change text color for portrait orientation */
   .header-content h1,
@@ -72,5 +65,8 @@
   #footer span {
     color: #ffffff;  /* Change text color here */
   }
+  
+  .header-content {
+    text-align: right; /* Right align content in portrait orientation */
+  }
 }
-

@@ -81,7 +81,7 @@ a:hover, a:focus {
   padding-bottom: 10px;
 }
 
-.contact-details p {
+.contact-details li {
   font-size: 37px;                 /*Change the font size here*/
   letter-spacing: 5px;
   margin-top: 0;

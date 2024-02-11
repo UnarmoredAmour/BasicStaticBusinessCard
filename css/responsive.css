@@ -2,6 +2,14 @@
 /* General Styles */
 /*-----------------------------------------------------------------------------------*/
 
+/* Default Text Color */
+.header-content h1,
+.header-content p,
+.header-content .list-social li i,
+#footer span {
+  color: #000000; /* Default text color set to the same as main website */
+}
+
 body {
   background: #fff;
   color: #898989;
@@ -143,14 +151,6 @@ a:hover, a:focus {
     background-image: url("../images/mobile-bg.jpeg");
     background-size: cover;
   }
-}
-
-/* Default Text Color */
-.header-content h1,
-.header-content p,
-.header-content .list-social li i,
-#footer span {
-  color: #000000; /* Default text color set to the same as main website */
 }
 
 /* Additional Styles for Portrait Orientation */

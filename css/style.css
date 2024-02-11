@@ -1,5 +1,12 @@
-body {
-  background: #fff;
+
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+
+  
   color: #898989;
   font-family: 'Poppins', helvetica;
   font-size: 15px;

@@ -140,7 +140,7 @@ a:hover, a:focus {
 
   /* Adjust background image for smaller screens */
   #header {
-    background-image: url("../images/mobile-bg.jpg");
+    background-image: url("../images/mobile-bg.jpeg");
     background-size: cover;
   }
 }
@@ -150,5 +150,14 @@ a:hover, a:focus {
   #header {
     background-image: url("../images/portrait-bg.jpeg");
     background-size: cover;
+  }
+}
+
+  /* Change text color for portrait orientation */
+  .header-content h1,
+  .header-content p,
+  .header-content .list-social li i,
+  #footer span {
+    color: #ffffff;  /* Change text color here */
   }
 }

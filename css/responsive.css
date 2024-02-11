@@ -1,29 +1,161 @@
-/** Width between 1200px to 992px */
-@media (min-width: 992px) and (max-width: 1200px) {
+/** Width between 1200px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) {
   #header {
-    background-size: cover;
+    width: 100%; /* Adjust the width of the header container for larger screens */
+  }
+  
+  .header-content h1 {
+    font-size: 2em; /* Example font size for larger screens */
+  }
+  
+  .header-content p {
+    font-size: 1.5em; /* Example font size for larger screens */
   }
 }
 
-/** Width between 991px to 768px */
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header {
+    width: 100%; /* Adjust the width of the header container for medium screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1.8em; /* Example font size for medium screens */
+  }
+  
+  .header-content p {
+    font-size: 1.3em; /* Example font size for medium screens */
+  }
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
 @media (min-width: 768px) and (max-width: 991px) {
   #header {
-    background-size: cover;
+    width: 100%; /* Adjust the width of the header container for smaller screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1.5em; /* Example font size for smaller screens */
+  }
+  
+  .header-content p {
+    font-size: 1.1em; /* Example font size for smaller screens */
   }
 }
 
-/** Width between 767px to 480px */
-@media (max-width: 767px) {
+/** Width between 480px to 599px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 480px) and (max-width: 599px) {
   #header {
-    background-size: contain;
-    background-position: center;
+    width: 100%; /* Adjust the width of the header container for smaller mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1.2em; /* Example font size for smaller mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 1em; /* Example font size for smaller mobile screens */
   }
 }
 
-/** Width between 479px to 320px */
-@media (max-width: 479px) {
+/** Width between 320px to 479px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 320px) and (max-width: 479px) {
   #header {
-    background-size: contain;
-    background-position: center;
+    width: 100%; /* Adjust the width of the header container for very small mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1em; /* Example font size for very small mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 0.9em; /* Example font size for very small mobile screens */
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 767px) {
+  #header {
+    width: 100%; /* Adjust the width of the header container for very small mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1em; /* Example font size for very small mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 0.9em; /* Example font size for very small mobile screens */
+  }
+}
+
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 600x) {
+  #header {
+    width: 100%; /* Adjust the width of the header container for very small mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1em; /* Example font size for very small mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 0.9em; /* Example font size for very small mobile screens */
+  }
+}
+
+/** Width between 480px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 480px) {
+  #header {
+    width: 100%; /* Adjust the width of the header container for very small mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1em; /* Example font size for very small mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 0.9em; /* Example font size for very small mobile screens */
+  }
+}
+
+/** Width between 320px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 320px) {
+  #header {
+    width: 100%; /* Adjust the width of the header container for very small mobile screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1em; /* Example font size for very small mobile screens */
+  }
+  
+  .header-content p {
+    font-size: 0.9em; /* Example font size for very small mobile screens */
   }
 }

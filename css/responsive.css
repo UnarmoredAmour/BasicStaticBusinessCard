@@ -10,11 +10,6 @@
   color: #000000; /* Default text color set to the same as main website */
 }
 
-/* Default Text Alignment */
-.header-content {
-  text-align: left; /* Default text alignment set to same as main site */
-}
-
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .header-content {
@@ -66,7 +61,4 @@
     color: #ffffff;  /* Change text color here */
   }
   
-  .header-content {
-    text-align: right; /* Right align content in portrait orientation */
-  }
 }

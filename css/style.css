@@ -115,7 +115,7 @@ p {
 
 .header-content .list-social li i {
   color: #000000;                      /*Change the icon color here*/
-  font-size: 18px;                    /*Change the icon size here*/
+  font-size: 15px;                    /*Change the icon size here*/
  letter-spacing: 0.1em;
   font-weight: 500;                 /*Change the icon weight here*/
 }

@@ -109,9 +109,10 @@ p {
 /*-----------------------------------------------------------------------------------*/
 
 .header-content .list-social li {
-  float: center;             /* to make it centered or right aligned change to float: center; or float: right; . Don't forget the header text above as well! */
   margin-right: 20px;
+  display: inline-block; /* Ensures the list items are displayed horizontally */
 }
+
 
 .header-content .list-social li i {
   color: #000000;                      /*Change the icon color here*/

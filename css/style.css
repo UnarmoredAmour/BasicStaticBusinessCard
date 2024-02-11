@@ -55,7 +55,7 @@ p {
 
 #header .header-content {
   height: 100vh;
-  text-align: left;
+  text-align: right;   /* to make it centered or right aligned change to text-align: center; or text-align: right; . Don't forget the social media links as well! */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -80,18 +80,8 @@ p {
   font-weight: 500;
 }
 
-.header-content .list-social li {
-  float: left;
-  margin-right: 20px;
-}
-
-.header-content .list-social li i {
-  color: #000000;                      /*Change the icon color here*/
-  font-size: 15px;
-}
-
 /*-----------------------------------------------------------------------------------*/
-/*  Contact
+/*  Contact Details Section 
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
@@ -107,6 +97,21 @@ p {
 
 .contact-details li {
   padding-bottom: 10px;
+}
+
+.header-content .list-social li {
+  float: right;             /* to make it centered or right aligned change to float: center; or float: right; . Don't forget the header text above as well! */
+  margin-right: 20px;
+}
+
+.header-content .list-social li i {
+  color: #000000;                      /*Change the icon color here*/
+  font-size: 15px;
+}
+
+#header .list-social li a:hover {
+  color: #094f37;                   /*Change the icon hover color here*/
+  transition: all 0.5s ease-in-out 0s;
 }
 
 /*-----------------------------------------------------------------------------------*/

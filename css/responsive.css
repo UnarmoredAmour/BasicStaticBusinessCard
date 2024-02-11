@@ -109,7 +109,7 @@ a:hover, a:focus {
 /*-----------------------------------------------------------------------------------*/
 /* Responsive Styles */
 /*-----------------------------------------------------------------------------------*/
-
+/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .header-content {
     text-align: center; /* Center align content on smaller screens */
@@ -137,5 +137,18 @@ a:hover, a:focus {
     font-size: 8px; /* Reduce font size for footer text on smaller screens */
     padding: 5px; /* Reduce padding for footer text on smaller screens */
   }
+
+  /* Adjust background image for smaller screens */
+  #header {
+    background-image: url("../images/mobile-bg.jpg");
+    background-size: cover;
+  }
 }
 
+/* Additional Styles for Portrait Orientation */
+@media screen and (max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 1/1) {
+  #header {
+    background-image: url("../images/portrait-bg.jpeg");
+    background-size: cover;
+  }
+}

@@ -19,13 +19,13 @@ h2, h4 {
 }
 
 a {
-  color: #292929;
+  color: #292929;      /*---Edit here to change  color for ---*/
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover, a:focus {
-  color: #094f37;
+  color: #094f37;        /*---Edit here to change hover color---*/
   text-decoration: underline;
 }
 
@@ -33,7 +33,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999;
+  color: #000000;              /*---Edit here to change paragraph color for contact details---*/
   line-height: 28px;
 }
 

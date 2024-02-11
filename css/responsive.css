@@ -145,6 +145,14 @@ a:hover, a:focus {
   }
 }
 
+/* Default Text Color */
+.header-content h1,
+.header-content p,
+.header-content .list-social li i,
+#footer span {
+  color: #000000; /* Default text color set to the same as main website */
+}
+
 /* Additional Styles for Portrait Orientation */
 @media screen and (max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 1/1) {
   #header {

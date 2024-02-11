@@ -55,7 +55,7 @@ p {
 
 #header .header-content {
   height: 100vh;
-  text-align: right;   /* to make it centered or right aligned change to text-align: center; or text-align: right; . Don't forget the social media links as well! */
+  text-align: center;   /* to make it centered or right aligned change to text-align: center; or text-align: right; . Don't forget the social media links as well! */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -100,7 +100,7 @@ p {
 }
 
 .header-content .list-social li {
-  float: right;             /* to make it centered or right aligned change to float: center; or float: right; . Don't forget the header text above as well! */
+  float: center;             /* to make it centered or right aligned change to float: center; or float: right; . Don't forget the header text above as well! */
   margin-right: 20px;
 }
 
